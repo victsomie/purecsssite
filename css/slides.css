@@ -1,14 +1,22 @@
 .header{
-    background-image: url(/assets/partners/caytree.png);
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     animation-name: bg;
-    animation-duration: 30sec;
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
-@keyframes{
-
+@keyframes bg{
+    0%,30%{
+        background-image: url(/assets/partners/africatalking.png);
+    }
+    30%,70%{
+        background-image: url(/assets/partners/barclays.png);
+    50%,100%{
+        background-image: url(/assets/partners/caytree.png);
+    }
 }
 
 
@@ -30,7 +38,7 @@
 }
 
 #partners{
-    background: red;
+    background: ;
 }
 
 div#slider{
@@ -55,7 +63,7 @@ div#slider ul{
  
 @keyframes slidy{
     0%,15%{
-        left:0
+        left:0;
     }
     20%,40%{
         left:-100%
