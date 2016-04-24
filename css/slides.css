@@ -1,0 +1,55 @@
+.overlay{
+    background-color:rgba(77,0,3);
+    height:50%;
+}
+
+#partners{
+    background: red;
+}
+
+div#slider{
+    overflow:hidden
+}
+p{
+    text-align: center
+}
+
+div#slider ul{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    font-size:0;
+    animation-name:slidy;
+    animation-direction:alternate;
+    animation-duration:40s;
+    animation-iteration-count:infinite
+}
+ 
+@keyframes slidy{
+    0%,15%{
+        left:0
+    }
+    20%,40%{
+        left:-100%
+    }
+    45%,65%{
+        left:-200%
+    }
+    70%,85%{
+        left:-300%
+    }
+    100%,90%{
+        left:-400%
+             }
+}
+
+
+
+.slide{
+    width:20%;
+    padding-top:50px;
+    padding-bottom:50px;
+    float:left
+}
