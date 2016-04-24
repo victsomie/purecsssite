@@ -1,3 +1,29 @@
+.header{
+    background-image: url(/assets/partners/caytree.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    animation-name: bg;
+    animation-duration: 30sec;
+    animation-iteration-count: infinite;
+}
+@keyframes{
+
+}
+
+
+.header nav{
+    text-align: right;
+}
+
+
+
+
+
+
+.full_height{
+    height: 100%;
+}
 .overlay{
     background-color:rgba(77,0,3);
     height:50%;
