@@ -1,39 +1,42 @@
 .header{
     position: relative;
+    color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     animation-name: bg;
-    animation-direction: alternate-reverse;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-duration: 40s;
+    animation-iteration-count:infinite;
 }
 @keyframes bg{
-    0%,30%{
-        background-image: url(/assets/partners/africatalking.png);
+    0%,20%{
+        background-image: url(/assets/backgrounds/landing.jpg);
     }
-    30%,70%{
-        background-image: url(/assets/partners/barclays.png);
-    50%,100%{
-        background-image: url(/assets/partners/caytree.png);
+    20%,40%{
+        background-image: url(/assets/backgrounds/foodsBg.jpg);
+
+    }
+    40%,60%{
+        background-image: url(/assets/backgrounds/landing.jpg);
+    }
+    60%,80%{
+        background-image: url(/assets/backgrounds/foodsBg.jpg);
+    }
+    80%,100%{
+        background-image: url(/assets/backgrounds/landing.jpg);
     }
 }
-
 
 .header nav{
     text-align: right;
 }
 
-
-
-
-
-
 .full_height{
     height: 100%;
 }
 .overlay{
-    background-color:rgba(77,0,3);
+    background-color:rgba(0,0,0,0.7);
     height:50%;
 }
 
@@ -56,7 +59,7 @@ div#slider ul{
     text-align:left;
     font-size:0;
     animation-name:slidy;
-    animation-direction:alternate;
+    animation-direction:reverse;
     animation-duration:40s;
     animation-iteration-count:infinite
 }
